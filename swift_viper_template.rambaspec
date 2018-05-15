@@ -11,8 +11,9 @@ code_files:
 # Factory
 - {name: Factory.swift,  path: Code/factory.swift.liquid}
 
-# Storyboard
-- {name: .storyboard, path: Code/storyboard.liquid}
+# Base.lproj
+- {name: Base.lproj/.storyboard, path: Code/Base.lproj/storyboard.liquid}
+- {name: Base.lproj/.strings, path: Code/Base.lproj/strings.liquid}
 
 # View layer
 - {name: View/ViewInput.swift,  path: Code/View/view_input.swift.liquid}
