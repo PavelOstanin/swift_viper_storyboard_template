@@ -22,7 +22,11 @@
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YWt-Ot-bl0" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <customObject id="c7b-Yf-gLc" customClass="{{ module_info.name }}ModuleInitializer" customModule="{{ module_info.project_name }}" customModuleProvider="target"/>
+                <customObject id="c7b-Yf-gLc" customClass="{{ module_info.name }}ModuleInitializer" customModule="{{ module_info.project_name }}" customModuleProvider="target">
+                    <connections>
+                        <outlet property="{{ module_info.name | downcase }}ViewController" destination="v8h-6I-roW" id="1Jj-iL-tzJ"/>
+                    </connections>
+                </customObject>
             </objects>
             <point key="canvasLocation" x="450" y="-125"/>
         </scene>
