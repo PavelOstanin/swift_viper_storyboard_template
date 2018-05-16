@@ -9,7 +9,7 @@
 /**
  * View -> Presenter
  */
-protocol {{ module_info.name }}ViewOutput {
+protocol {{ module_info.name }}ViewOutput: Closeable{
 
 	func setupInitialState(withArguments args: NamedValuesType, completion: ModuleCompletionHandler?)
   	func viewIsReady()

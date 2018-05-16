@@ -25,6 +25,11 @@ extension {{ module_info.name }}Presenter: {{ module_info.name }}ViewOutput {
     func viewIsReady() {
             
     }
+
+    func close() {
+        moduleCompletion?(nil)
+    }
+
 }
 
 
